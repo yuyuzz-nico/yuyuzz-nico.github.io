@@ -1,0 +1,21 @@
+h1 {
+  color: #ca2dca;
+}
+h2 {
+  color: pink;
+}
+p {
+  background-color: #e1fdff;
+  padding: 16px;
+}
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px;
+  line-height: 1.7;
+  font-family: system-ui, "Microsoft YaHei", sans-serif;
+  color: #333333;
+}
+img {
+  max-width: 100%;
+}
