@@ -26,6 +26,8 @@ askBtn.addEventListener("click", function () {
     answer.textContent = "你才笨，我只是缓存还没刷新。";
   } else if (said.includes("再见") || said.includes("拜拜")) {
     answer.textContent = "慢走，F5 之前我都在。";
+  } else if (said.includes("天气") || said.includes("温度")) {
+    answer.textContent = "nico不太会看天气，建议你去查查。";
   } else if (said.includes("你好")) {
     answer.textContent = "你好呀，欢迎来玩。";
   } else {
